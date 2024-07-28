@@ -1,0 +1,170 @@
+.bill-form-container {
+    -webkit-box-shadow: 0px 0px 23px -5px rgba(0,0,0,0.81);
+    -moz-box-shadow: 0px 0px 23px -5px rgba(0,0,0,0.81);
+    box-shadow: 0px 0px 23px -5px rgba(0,0,0,0.81);
+    margin: 25px auto;
+    max-width: 900px;
+    padding: 50px;
+}
+.bill-title {
+    color: #fff;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    margin: 2% auto;
+    
+}
+
+.call-to-action {
+    align-items: center;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.call-to-action .paragraph {
+    max-width: 700px; /* Set the desired width */
+    margin: 0 auto; /* Center the paragraph */
+}
+
+.call-to-action .paragraph p {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align text to the top */
+    text-align: center; /* Ensure text is left-aligned */
+}
+
+.call-to-action .paragraph p::before {
+    content: '';
+    display: block;
+    height: 1em; /* Adjust as needed for spacing */
+}
+
+.container-wrapper, .content-tiles {
+    display: flex;
+    flex-wrap: nowrap; /* prevent wrapping */
+    justify-content: center;
+    flex-direction: row;
+    gap: 0px; /* remove space between containers */
+    margin: 2% auto;
+    text-align: center;
+}
+
+.content-tiles {
+    gap: 10px;
+}
+
+
+.about-text {
+    max-width: 600px;
+    padding: 5px; /* Remove padding */
+    margin: 0; /* Remove vertical margins */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add text shadow */
+    position: relative;
+    right: 10px;
+}
+
+.main-content-container, .content-tile {
+    background-color: #17193bad;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 23px -5px rgba(0,0,0,0.81);
+    -moz-box-shadow: 0px 0px 23px -5px rgba(0,0,0,0.81);
+    box-shadow: 0px 0px 23px -5px rgba(0,0,0,0.81);
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin: 1% auto; /* Center the container */
+    max-width: 865px; /* Extend across the page */
+    flex-direction: column;
+    margin-top: 40px;
+
+}
+
+.content-tile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #17193bad;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 23px -5px rgba(0,0,0,0.81);
+    -moz-box-shadow: 0px 0px 23px -5px rgba(0,0,0,0.81);
+    box-shadow: 0px 0px 23px -5px rgba(0,0,0,0.81);
+    padding: 5px; /* Remove padding */
+    margin: 5px; /* Remove vertical margins */
+    max-width: 200px;
+    width: 100%;
+    height: 300px; /* Same height as about-text */
+}
+
+.image-placeholder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #17193bad;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 23px -5px rgba(0,0,0,0.81);
+    -moz-box-shadow: 0px 0px 23px -5px rgba(0,0,0,0.81);
+    box-shadow: 0px 0px 23px -5px rgba(0,0,0,0.81);
+    padding: 5px; /* Remove padding */
+    margin: 5px; /* Remove vertical margins */
+    max-width: 250px;
+    width: 100%;
+    height: 300px; /* Same height as about-text */
+    position: relative;
+    top: 10px;
+    right: -10px;
+}
+
+.image-placeholder img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover; /* Fit image without distortion */
+}
+
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.about-text {
+    min-width: 300px;
+    min-height: 300px;
+    transition: min-width 0.3s ease-in-out;
+    margin-top: 2% auto;
+    text-align: center;
+}
+
+.about-title {
+    font-size: 1em; /* larger font size for title */
+    margin-bottom: 0px; /* space between title and content */
+}
+
+.form-group input {
+    width: 96%;
+    padding: 10px;
+    border: 1px solid #3e43a1ad;
+    border-radius: 4px;
+}
+
+button {
+    width: 18%;
+    padding: 7px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    position: relative;
+    left: 80.5%;
+    bottom: 3%;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.left-align-text {
+    text-align: left;
+}
